@@ -4,17 +4,17 @@ public class PersonaDTO {
 
 	private String nie;
 	private String nombre;
-	private String linares;
+	private String apellidos;
 
 	public PersonaDTO() {
 		super();
 	}
 
-	public PersonaDTO(String nie, String nombre, String linares) {
+	public PersonaDTO(String nie, String nombre, String apellidos) {
 		super();
 		this.nie = nie;
 		this.nombre = nombre;
-		this.linares = linares;
+		this.apellidos = apellidos;
 	}
 
 	public String getNie() {
@@ -33,12 +33,14 @@ public class PersonaDTO {
 		this.nombre = nombre;
 	}
 
-	public String getLinares() {
-		return linares;
+	public String getApellidos() {
+		return apellidos;
 	}
 
-	public void setLinares(String linares) {
-		this.linares = linares;
+	public void setApellidos(String apellidos) {
+		this.apellidos = apellidos;
 	}
+
+
 
 }
